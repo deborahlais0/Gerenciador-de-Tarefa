@@ -1,0 +1,65 @@
+Este projeto é uma aplicação de Lista de Tarefas que permite aos usuários adicionar, editar e excluir tarefas. A aplicação utiliza HTML, CSS e JavaScript, interagindo com uma API externa para gerenciar as tarefas.
+
+Estrutura do Projeto
+
+* index.html: Contém a estrutura básica da aplicação, incluindo a interface de usuário para adicionar e listar tarefas.
+
+* style.css: Arquivo de estilo que define a aparência da aplicação.
+
+* app.js: Script JavaScript que gerencia a lógica da aplicação, incluindo chamadas à API e manipulação do DOM.
+
+Tecnologias Utilizadas
+
+* HTML
+* CSS
+* JavaScript
+* Fetch API (para requisições HTTP)
+
+Funcionalidades
+
+✅ Listar Tarefas: As tarefas são carregadas da API e exibidas na interface.
+✅ Adicionar Tarefas: O usuário pode adicionar novas tarefas com título, descrição (opcional) e status de conclusão.
+✅ Editar Tarefas: O título de uma tarefa existente pode ser editado.
+✅ Excluir Tarefas: O usuário pode remover tarefas da lista.
+
+Passo a Passo para Executar o Projeto
+
+1. Clone o Repositório
+
+git clone <link-do-repositorio>
+cd <nome-do-repositorio>
+
+2. Abra o Arquivo HTML
+
+* Localize o arquivo index.html.
+* Abra-o em um navegador da sua escolha.
+
+3. Interaja com a Aplicação
+
+* Adicione novas tarefas utilizando o formulário.
+* Edite tarefas clicando no botão de editar.
+* Exclua tarefas ao clicar no botão de excluir.
+
+
+Detalhes da API Utilizada
+
+Este projeto consome a API pública https://jsonplaceholder.typicode.com/todos, que retorna uma lista de tarefas simuladas.
+
+* GET /todos → Obtém a lista de tarefas
+* POST /todos → Adiciona uma nova tarefa
+* PUT /todos/{id} → Edita uma tarefa existente
+* DELETE /todos/{id} → Exclui uma tarefa
+
+⚠️ Observação: Como essa API é apenas um placeholder (simulação), as alterações não são salvas permanentemente.
+
+Autores
+
+Daniella Pereira Ferreira Silva – 202312060005
+Déborah Laís Alves Bezerra – 202312060003
+Maria Alice de Góis Neves – 202312060034
+Maria Giselly do Nascimento Sousa – 202312060015
+
+daniella.pereira@academico.ifpb.edu.br
+deborah.lais@academico.ifpb.edu.br
+alice.gois@academico.ifpb.edu.br
+giselly.nascimento@academico.ifpb.edu.br

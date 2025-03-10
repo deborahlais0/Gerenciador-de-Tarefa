@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="hf.jpg">
+        <h1>Lista de Tarefas</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Tarefas</a></li>
+                <li><a href="#">Adicionar Tarefas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="task-list">
+        <h2>Tarefas</h2>
+        <ul id="tasks"></ul>
+    </section>
+
+    <section id="add-task">
+        <h2>Adicionar Nova Tarefa</h2>
+        <form id="task-form">
+            <input type="text" id="task-title" placeholder="Título da Tarefa" required>
+            <textarea id="task-description" placeholder="Descrição (opcional)"></textarea>
+            <input type="number" id="user-id" placeholder="ID do Usuário" required>
+            <label>
+                <input type="checkbox" id="task-completed"> Concluída
+            </label>
+            <button type="submit">Adicionar Tarefa</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
